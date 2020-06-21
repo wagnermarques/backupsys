@@ -30,3 +30,8 @@ Route::get('/userlist', function () {
 });
 
 
+Route::get('FormTarefaDeBackup', 'TarefaDeBackupController@create')->name('FormTarefaDeBackup.create');
+Route::post('FormTarefaDeBackup', 'TarefaDeBackupController@store')->name('FormTarefaDeBackup.store');
+
+
+
